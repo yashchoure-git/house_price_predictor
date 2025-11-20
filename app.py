@@ -184,7 +184,7 @@ def predict_sale_price(area, bedrooms, bathrooms):
     return predicted_price[0] * 30
 
 # Header
-st.markdown('<h1>ESTATE VALUATION</h1>', unsafe_allow_html=True)
+st.markdown('<h1>ESTATE</h1>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle">Luxury Property Price Estimator</p>', unsafe_allow_html=True)
 st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
